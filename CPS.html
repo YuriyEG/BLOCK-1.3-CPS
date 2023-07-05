@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="wiewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/CPS.css">
-        <link rel="stylesheet" href="stylesheet.css">
+        
     
 
 
@@ -28,7 +28,7 @@
                     <div class="main__highlights">
 
                     </div>
-                    <!-- <image src="highlight.svg" width="4px" height="40px" alt="highlight"/> -->
+                 
                     
                     <div class="main__text">
                         Услуги и сервисы
@@ -55,14 +55,16 @@
                         <div class="main__post-text">
                             Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
                         
-                            <!-- <details>
                             
+                        <span id="more">
                             Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, 
 советуют нас родным и близким.
-                        </details> -->
-                        <div class="main__summary">
+                        </span>   
+                            
+                        
+                        <div id="more-text" class="main__summary">
                             <image src="./summary.svg" class='main__summary-icon' alt="summary" />
-                            <div class="main__summary-text">Читать далее</div>
+                            <div  class="main__summary-text" onclick="show()">Читать далее</div>
                         </div>
 
                         </div>
@@ -73,6 +75,6 @@
 
         </div>
 
-
+    <script src="CPS.js"/>
     </body>
 </html>
