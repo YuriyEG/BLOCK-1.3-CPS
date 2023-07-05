@@ -12,13 +12,33 @@
     </head>
     <body>
         
-        <div class="cps-root">
+        <div id='mobile' class="cps-root">
             <div class="header">
-                <div class="header__icon"><image src='./burger.png'  class='header__burger' alt='burger'></image></div>
+                <div class="header__block">
+                    <div class="header__icon"><image src='./burger.png'  class='header__burger' alt='burger'></image></div>
+                <image src="./divider.png" class="header__divider header__divider--none" alt="divider"/>
                 <image src="./LogoCPS.svg" class="header__cps"/>
+                </div>
+                
+
+                <div class="header__block">
+                    <div class="header__icons header__icons--none">
+                    <image src="./call.svg" class="header__icon2"></image>
+                
+                <image src="./chat.svg" class="header__icon2"></image>
+                <image src="./profile.svg" class="header__icon2"></image>
+                </div>
+
                 <image src="./divider.png" class="header__divider" alt="divider"/>
+
                 <div class="header__icon"><image src='./settings.svg'  class='header__settings' alt='settings'></image></div>
                 <div class="header__icon"><image src='./checkstatus.svg' class='header__search' alt='search'></image></div>
+                </div>
+                
+                
+
+                
+                
 
             </div>
             
@@ -74,6 +94,19 @@
             </div>
 
         </div>
+
+        <!-- <div id="tablet" class="tablet__cps-root">
+            <div class="tablet-header">
+                Услуги и сервисы
+            </div>
+            
+            
+
+
+
+        </div>
+
+        <div id="desktop">desktop</div> -->
 
     <script src="CPS.js"/>
     </body>
