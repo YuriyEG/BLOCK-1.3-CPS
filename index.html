@@ -10,19 +10,93 @@
         
         
         <title>Сервисный центр CPS</title>
-        <script src="./index.js"></script>`
+        <script src="./index.js"></script>
         
     
 
 
     </head>
     <body>
-        
-        <div class="cps-root">
+        <div id="sb__modal" onclick='closebar()' class="sidebar__modal">
+
+        </div>
+        <div  class="cps-root">
+            <aside id='sidebar' class="sidebar sidebar--display">
+
+                <div class="sidebar__header">
+                    <div class="sidebar__wrapper">
+                            <div onclick="showbar()" class='sidebar__wrapper'> 
+                                <image class='height-middle icon-effect sidebar__close--none' src="./burger.svg" alt="close"/>
+
+                            </div>
+                           
+                        
+                        
+                        <image  src="./LogoCPS.svg" alt="logo"/>
+                    </div>
+                    
+                    
+                    <image class='icon-effect' src="./search.svg" alt="search"/>
+
+                </div>
+
+                <nav class="sidebar__nav"> 
+
+                  <ul class="sidebar__ul">
+                    <li class='sidebar__li'>
+                        <image class='highlight' src='./highlight.svg' alt='heighlights'/>
+                        <a href="/service-1/">Ремонт техники</a></li>
+                    <li class='sidebar__li'>
+                        <image class='highlight' src='./highlight.svg' alt='heighlights'/>
+                        <a href="/service-2/">Услуги и сервисы</a></li>
+                    <li class='sidebar__li'>
+                        <image class='highlight' src='./highlight.svg' alt='heighlights'/>
+                        <a href="/service-3/">Корпоративным клиентам</a></li>
+                    <li class='sidebar__li'>
+                        <image class='highlight' src='./highlight.svg' alt='heighlights'/>
+                        <a href="/service-1/">Продавцам техники</a></li>
+                    <li class='sidebar__li'>
+                        <image class='highlight' src='./highlight.svg' alt='heighlights'/>
+                        <a href="/service-3/">Производителям</a></li>
+                    <li class='sidebar__li'>
+                        <image class='highlight' src='./highlight.svg' alt='heighlights'/>
+                        <a href="/service-2/">Партнерам</a></li>
+                    <li class='sidebar__li'>
+                        <image class='highlight' src='./highlight.svg' alt='heighlights'/>
+                        <a href="/service-3/">Наши сервисные центры</a></li>
+                    <li class='sidebar__li'>
+                        <image class='highlight' src='./highlight.svg' alt='heighlights'/>
+                        <a href="/service-3/">Контакты</a></li>
+                  </ul>
+                  <image class='highlight' src='./highlight.svg' alt='heighlights'/>
+
+                </nav>
+                
+                    
+                
+                
+                <div class="sidebar__footer">
+                    <div class="sidebar__footer-icons">
+                        <image class='icon-effect' src="./call.svg" class="header__icon2"></image>
+                        <image class='icon-effect' src="./chat.svg" class="header__icon2"></image>
+                        <image class='icon-effect' src="./profile.svg" class="header__icon2"></image>
+                    </div>
+                    <div class="sidebar__email">mail@cps.com</div>
+                    <div class="sidebar__phone">8 800 890 8900</div>
+                    <div class="sidebar__lang">
+                        <span>RU</span>
+                        <span>EN</span>
+                        <span>CH</span>
+                    </div>
+
+                </div>
+
+              </aside>
+            
             <div class="header header--none">
 
                     <div class="header__block">
-                        <div class="header__icon"><image src='./burger.png'  class='header__burger' alt='burger'></image></div>
+                        <div onclick='showbar()' class="header__icon icon-effect"><image src='./burger.png'  class='header__burger' alt='burger'></image></div>
                         <image src="./divider.png" class="header__divider header__divider--none" alt="divider"/>
                         <image src="./LogoCPS.svg" class="header__cps"/>
                     </div>
@@ -30,28 +104,30 @@
 
                     <div class="header__block">
                         <div class="header__icons header__icons--none">
-                            <image src="./call.svg" class="header__icon2"></image>
-                            <image src="./chat.svg" class="header__icon2"></image>
-                            <image src="./profile.svg" class="header__icon2"></image>
+                            <image src="./call.svg" class="header__icon2 icon-effect"></image>
+                            <image src="./chat.svg" class="header__icon2 icon-effect"></image>
+                            <image src="./profile.svg" class="header__icon2 icon-effect"></image>
                         </div>
 
                             <image src="./divider.png" class="header__divider" alt="divider"/>
-                            <div class="header__icon"><image src='./settings.svg'  class='header__settings' alt='settings'></image></div>
-                            <div class="header__icon"><image src='./checkstatus.svg' class='header__search' alt='search'></image></div>
+                            <div class="header__icon icon-effect"><image src='./settings.svg'  class='header__settings' alt='settings'></image></div>
+                            <div class="header__icon icon-effect"><image src='./checkstatus.svg' class='header__search' alt='search'></image></div>
 
                     </div>
                 
 
             </div>
             
+
             <div class="main">
+            
                 
                 <div class="main__title">
                     <div class="block">
                             <div class="main__highlights">
 
                             </div>
-                            <div class="main__text">
+                            <div  class="main__text">
                                 Услуги и сервисы
                             </div> 
                     </div>
@@ -60,11 +136,11 @@
                     <div class="block">
                         <div class="main__title__block-icons main__title__icons--on">
                            
-                                <span class='up'>Оставить заявку</span>
-                                <image src="./repair.svg" alt='repair'/>
+                                <span  class='up'>Оставить заявку</span>
+                                <image  class='icon-effect' src="./repair.svg" alt='repair'/>
                         
                                 <span class='up'>Статус ремонта</span>
-                                <image src="./checkstatus.svg" alt="status"/>
+                                <image class='icon-effect' src="./checkstatus.svg" alt="status"/>
 
                         </div>
                     </div>
@@ -101,14 +177,14 @@
                         
                             <div id="more-text" class="main__summary">
 
-                            <image src="./summary.svg" class='main__summary-icon' alt="summary" />
-                            <div  class="main__summary-text" onclick="show()">Читать далее</div>
+                            <image  src="./summary.svg" class='main__summary-icon' alt="summary" />
+                            <div  class="main__summary-text icon-effect" onclick="show()">Читать далее</div>
 
                             </div>
 
                         </div>
 
-                        <image src="./picture.jpg" alt='picture' class="main__picture"/>
+                        <image onclick='closebar()' id='pict' src="./picture.jpg" alt='picture' class="main__picture"/>
 
                     </div>
 
