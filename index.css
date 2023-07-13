@@ -239,7 +239,25 @@ body {
     color: black;
     position: relative;
 
+
    
+}
+.sidebar__nav > ul > li > a {
+    position: relative;
+}
+
+.sidebar__nav > ul > li > a:hover::before {
+    content: '';
+    width: 1.5px;
+    height: 34px;
+    border: 2px solid rgba(65, 246, 215, 1);
+    background-color: rgba(65, 246, 215, 1);
+    border-radius: 0 3px 3px 0;
+
+    z-index: 10;
+    position: absolute;
+    left: 2px;
+    top: 3px;
 }
 
 .sidebar__nav > ul > li:hover .highlight {
@@ -536,35 +554,7 @@ body {
 @media screen and (max-width: 768px) {
 
 
-    @font-face { 
-        font-family: "TTLakes-Bold";
-        src: url("./fonts/TTLakes-Bold.eot");
-        src: url("./fonts/TTLakes-Bold.eot")format("embedded-opentype"),
-        url("./fonts/TTLakes-Bold.woff") format("woff"),
-        url("./fonts/TTLakes-Bold.ttf") format("truetype");
-        font-style: normal;
-        font-weight: 500;
-    }
-
-    @font-face { 
-        font-family: "TTLakes-Light";
-        src: url("./fonts/TTLakes-Light.eot");
-        src: url("./fonts/TTLakes-Light.eot")format("embedded-opentype"),
-        url("./fonts/TTLakes-Light.woff") format("woff"),
-        url("./fonts/TTLakes-Light.ttf") format("truetype");
-        font-style: normal;
-        font-weight: 500;
-    }
-
-    @font-face { 
-        font-family: "TTLakes-ExtraBold";
-        src: url("./fonts/TTLakes-ExtraBold.eot");
-        src: url("./fonts/TTLakes-Bold.eot")format("embedded-opentype"),
-        url("./fonts/TTLakes-ExtraBold.woff") format("woff"),
-        url("./fonts/TTLakes-ExtraBold.ttf") format("truetype");
-        font-style: normal;
-        font-weight: 500;
-    }
+    
 
 
 
@@ -652,35 +642,7 @@ body {
 
 
 
-    @font-face { 
-        font-family: "TTLakes-Bold";
-        src: url("./fonts/TTLakes-Bold.eot");
-        src: url("./fonts/TTLakes-Bold.eot")format("embedded-opentype"),
-        url("./fonts/TTLakes-Bold.woff") format("woff"),
-        url("./fonts/TTLakes-Bold.ttf") format("truetype");
-        font-style: normal;
-        font-weight: 500;
-    }
-
-    @font-face { 
-        font-family: "TTLakes-Light";
-        src: url("./fonts/TTLakes-Light.eot");
-        src: url("./fonts/TTLakes-Light.eot")format("embedded-opentype"),
-        url("./fonts/TTLakes-Light.woff") format("woff"),
-        url("./fonts/TTLakes-Light.ttf") format("truetype");
-        font-style: normal;
-        font-weight: 500;
-    }
-
-    @font-face { 
-        font-family: "TTLakes-ExtraBold";
-        src: url("./fonts/TTLakes-ExtraBold.eot");
-        src: url("./fonts/TTLakes-Bold.eot")format("embedded-opentype"),
-        url("./fonts/TTLakes-ExtraBold.woff") format("woff"),
-        url("./fonts/TTLakes-ExtraBold.ttf") format("truetype");
-        font-style: normal;
-        font-weight: 500;
-    }
+   
 
 
     .cps-root {
@@ -883,35 +845,7 @@ body {
 
 @media screen and (min-width: 1120px) {
 
-    @font-face { 
-        font-family: "TTLakes-Bold";
-        src: url("./fonts/TTLakes-Bold.eot");
-        src: url("./fonts/TTLakes-Bold.eot")format("embedded-opentype"),
-        url("./fonts/TTLakes-Bold.woff") format("woff"),
-        url("./fonts/TTLakes-Bold.ttf") format("truetype");
-        font-style: normal;
-        font-weight: 500;
-    }
-
-    @font-face { 
-        font-family: "TTLakes-Light";
-        src: url("./fonts/TTLakes-Light.eot");
-        src: url("./fonts/TTLakes-Light.eot")format("embedded-opentype"),
-        url("./fonts/TTLakes-Light.woff") format("woff"),
-        url("./fonts/TTLakes-Light.ttf") format("truetype");
-        font-style: normal;
-        font-weight: 500;
-    }
-
-    @font-face { 
-        font-family: "TTLakes-ExtraBold";
-        src: url("./fonts/TTLakes-ExtraBold.eot");
-        src: url("./fonts/TTLakes-Bold.eot")format("embedded-opentype"),
-        url("./fonts/TTLakes-ExtraBold.woff") format("woff"),
-        url("./fonts/TTLakes-ExtraBold.ttf") format("truetype");
-        font-style: normal;
-        font-weight: 500;
-    }
+    
 
    
 
@@ -931,7 +865,7 @@ body {
        
         background-color: rgba(248, 248, 248, 1);
         position: relative;
-        border: 2px solid black;
+     
         padding-left: 320px;
 
         font-family: 'TTLakes-Light', sans-serif;
