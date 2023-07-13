@@ -6,14 +6,11 @@ function show() {
     hidden.style.display = 'inline';
  
         
-    const mediaQuery = window.matchMedia(' (min-width: 768px) ');
-    if (!mediaQuery.matches) {
-        pict.style.display = 'none';
-    }
     
     
     
-}
+    
+};
 
 function showbar() {
     var hidden2 = document.getElementById('sidebar');
@@ -26,7 +23,7 @@ function showbar() {
         modal.style.display = 'block';
 
     } else {
-        hidden2.style.left = '-370px';
+        hidden2.style.left = '-400px';
         hidden2.style.transition = 'left 0.3s linear';
         var hidden3 = document.getElementById('sb__modal');
         
@@ -38,16 +35,16 @@ function showbar() {
     
     
     
-}
+};
 function closebar() {
 
         var hidden3 = document.getElementById('sb__modal');
         
         hidden3.style.display = 'none';
         var saidbar = document.getElementById('sidebar');
-        saidbar.style.left = '-370px';
+        saidbar.style.left = '-400px';
         saidbar.style.transition = 'left 0.5s linear';
         
 
     
-}
+};
