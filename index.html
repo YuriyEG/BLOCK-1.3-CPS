@@ -21,7 +21,7 @@
                 <div class="sidebar__header">
                     <div class="sidebar__wrapper">
                             <div onclick="showbar()" class='sidebar__wrapper'> 
-                                <image class='height-middle icon-effect sidebar__close--none' src="./burger.svg" alt="close"/>
+                                <image class='height-middle icon-effect sidebar__close--none' src="./assets/images/close.svg" alt="close"/>
 
                             </div>
                            
@@ -31,7 +31,7 @@
                     </div>
                     
                     
-                    <image class='icon-effect' src="./search.svg" alt="search"/>
+                    <image class='icon-effect' src="./assets/images/search.svg" alt="search"/>
 
                 </div>
 
@@ -55,9 +55,9 @@
                 
                 <div class="sidebar__footer">
                     <div class="sidebar__footer-icons">
-                        <image class='icon-effect' src="./call.svg" class="header__icon2"></image>
-                        <image class='icon-effect' src="./chat.svg" class="header__icon2"></image>
-                        <image class='icon-effect' src="./profile.svg" class="header__icon2"></image>
+                        <image class='icon-effect' src="./assets/images/call.svg" class="header__icon2"></image>
+                        <image class='icon-effect' src="./assets/images/chat.svg" class="header__icon2"></image>
+                        <image class='icon-effect' src="./assets/images/profile.svg" class="header__icon2"></image>
                     </div>
                     <div class="sidebar__email">mail@cps.com</div>
                     <div class="sidebar__phone">8 800 890 8900</div>
@@ -74,28 +74,33 @@
             <div class="header header--none">
 
                     <div class="header__block">
-                        <div id='showbar' onclick='showbar()' class="header__icon icon-effect"><image src='./burger.png'  class='header__burger' alt='burger'></image></div>
-                        <image src="./divider.png" class="header__divider header__divider--none" alt="divider"/>
-                        <image src="./LogoCPS.svg" class="header__cps"/>
+
+                        <div class="header__burger icon-effect" onclick='showbar()'></div>
+                        <div class="header__divider icon-effect"></div>
+                        <div class="header__logo"></div>
+                        <div class="header__divider icon-effect"></div>
+
                     </div>
                 
 
                     <div class="header__block">
-                        <div class="header__icons header__icons--none">
-                            <image src="./call.svg" class="header__icon2 icon-effect"></image>
-                            <image src="./chat.svg" class="header__icon2 icon-effect"></image>
-                            <image src="./profile.svg" class="header__icon2 icon-effect"></image>
-                        </div>
+
+                            <div class="header__call icon-effect"></div>
+                            <div class="header__chat icon-effect"></div>
+                            <div class="header__profile icon-effect"></div>
+                           
                     </div>
                     
                     <div class="header__block">
 
 
-                    
+                            <div class="header__divider icon-effect"></div>
+                            <span  class='header__hi-resol'>Оставить заявку</span>
+                            <div class="header__repair icon-effect"></div>
+                            <span class='header__hi-resol'>Статус ремонта</span>
+                            <div class="header__checkstatus icon-effect"></div>
 
-                            <image src="./divider.png" class="header__divider" alt="divider"/>
-                            <div class="header__icon icon-effect"><image src='./settings.svg'  class='header__settings' alt='settings'></image></div>
-                            <div class="header__icon icon-effect"><image src='./checkstatus.svg' class='header__search' alt='search'></image></div>
+                           
 
                     </div>
                 
@@ -120,15 +125,7 @@
 
 
 
-                            <div class="hi-resol-icons">
-                           
-                                <span  class='up'>Оставить заявку</span>
-                                <image  class='icon-effect' src="./repair.svg" alt='repair'/>
-                        
-                                <span class='up'>Статус ремонта</span>
-                                <image class='icon-effect' src="./checkstatus.svg" alt="status"/>
-
-                             </div>
+                            
 
 
 
@@ -178,14 +175,14 @@
                         
                             <div id="more-text" class="main__summary">
 
-                            <image  src="./summary.svg" class='main__summary-icon' alt="summary" />
+                            <image  src="./assets/images/summary.svg" class='main__summary-icon' alt="summary" />
                             <div  class="main__summary-text icon-effect" onclick="show()">Читать далее</div>
 
                             </div>
 
                         </div>
 
-                        <image onclick='closebar()' id='pict' src="./picture.jpg" alt='picture' class="main__picture"/>
+                        <image onclick='closebar()' id='pict' src="./assets/images/picture.jpg" alt='picture' class="main__picture"/>
 
                     </div>
 

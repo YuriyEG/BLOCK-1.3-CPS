@@ -40,9 +40,12 @@ body {
     
 }
 
-div {
-    border: 1px solid black;
+.hide {
+
+    display: none;
 }
+
+
 
 
 
@@ -81,13 +84,111 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
     margin-bottom: 20px;
     background-color: rgb(255, 255, 255);
     border-bottom: 2px solid rgba(128, 148, 159, 0.162);
+    font-family: 'TTLakes-Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
     
 }
 
+
+
+.header__burger {
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/burger.svg');
+    background-position: 50% 50% no-repeat;
+    align-self: center;
+    margin-left: 16px;
+}
+
+.header__divider {
+    width: 2px;
+    height: 32px;
+    background-color:rgba(234, 234, 234, 1);
+    
+    align-self: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: inline; 
+}
+
+.header__logo {
+    width: 98px;
+    height: 52px;
+    background-image: url('../images/LogoCPS.svg');
+    align-self: center;
+
+}
+
+.header__call {
+
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/call.svg');
+    background-position: 50% 50% no-repeat;
+    align-self: center;
+    margin-left: 16px;
+
+}
+
+.header__profile {
+
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/profile.svg');
+    background-position: 50% 50% no-repeat;
+    align-self: center;
+    margin-left: 16px;
+
+}
+
+.header__chat {
+
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/chat.svg');
+    background-position: 50% 50% no-repeat;
+    align-self: center;
+    margin-left: 16px;
+
+}
+
+.header__repair {
+
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/repair.svg');
+    background-position: 50% 50% no-repeat;
+    align-self: center;
+    margin-left: 16px;
+
+}
+
+.header__checkstatus {
+
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/checkstatus.svg');
+    background-position: 50% 50% no-repeat;
+    align-self: center;
+    margin-left: 16px;
+    
+    
+
+}
+
+.header__hi-resol {
+    display: inline-block;
+    align-self: center;
+    margin-left: 16px;
+    margin-right: -4px;
+    font-weight: bold;
+    font-size: 16px;
+}
 
 .header__cps  {
     width: 97px;
@@ -98,13 +199,7 @@ div {
     
     color: black;
 }
-.header__divider {
-    width: 2px;
-    height: 32px;
-    margin-top: 30px;
-    margin-right: 5px;
-    border-radius: 1px;
-}
+
 .header__divider--none {
     display: none;
 }
@@ -129,13 +224,7 @@ div {
 }
 
 
-.header__burger {
-    margin: 12px;
-    margin-left: 11px;
-    width: 18px;
-    height: 16px;
 
-}
 .header__settings {
     margin: 10px;
     
@@ -143,12 +232,6 @@ div {
     height: 20px;
 }
 
-.header__checkstatus {
-    margin: 10px;
-    
-    width: 16px;
-    height: 20px;
-}
 .header__icon2 {
         width: 40px;
         height: 40px;
