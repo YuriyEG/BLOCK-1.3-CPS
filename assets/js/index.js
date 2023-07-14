@@ -19,13 +19,13 @@ function showbar() {
         hidden2.style.left = '0px';
         hidden2.style.transition = 'left 0.5s linear';
 
-        let modal = document.getElementById('sb__modal');
+        let modal = document.getElementById('saidbar__mask');
         modal.style.display = 'block';
 
     } else {
         hidden2.style.left = '-400px';
         hidden2.style.transition = 'left 0.3s linear';
-        var hidden3 = document.getElementById('sb__modal');
+        var hidden3 = document.getElementById('saidbar__mask');
         
         hidden3.style.display = 'none';
         var saidbar = document.getElementById('sidebar');

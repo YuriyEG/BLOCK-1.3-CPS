@@ -165,14 +165,15 @@ body {
 
     
 }
-.sidebar__modal {
+#saidbar__mask {
     display: none;
-    z-index: 5;
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.045);
-    width: 200vh;
+    width: 200vw;
     height: 200vh;
+    background-color: rgba(0, 0, 0, 0.215);
+    position: fixed;
+    z-index: 5;
 }
+
 .sidebar__header {
     box-sizing: border-box;
     padding: 19px 18px 19px 16px;
