@@ -64,7 +64,7 @@ body {
 
 .cps-root {
     
-    width: 100%;
+    width: 100vw;
     min-width: 320px;
     height: 100%;
     min-height: 800px;
@@ -73,7 +73,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
-    
     z-index: 0;
  
 }
@@ -93,7 +92,7 @@ body {
     width: 0;
   }
 .header {
-    width: 100%;
+    width: 98%;
     height: 88px;
     
     display: flex;
@@ -470,7 +469,7 @@ body {
 
 
 .main {
-    width: 100%;
+    width: 98%;
     height: auto;
     background: rgba(248, 248, 248, 1);
     font-family: TTLakesMedium;
@@ -533,6 +532,7 @@ body {
     white-space: nowrap;
     color: gray;
     box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
 
     font-family: 'TTLakes-Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
        font-size: 16px;
@@ -736,7 +736,7 @@ body {
 
         width: 320px;
         
-    height: 100vh;
+        height: 100vh;
   
         position: absolute;
         left: -400px;
@@ -801,8 +801,9 @@ body {
     }
 
     .header {
-        width: 100%;
+        width: 98%;
         margin-bottom: 20px;
+        justify-content: space-between;
     }
 
    
@@ -811,7 +812,7 @@ body {
     }
 
     .main {
-        width: 100%;
+        width: 98%;
         height: auto;
     }
     
@@ -886,9 +887,7 @@ body {
         margin-left: 10px;
     }
     
-    .header {
-        justify-content: space-between;
-    }
+   
 
     .header__block {
         margin-right: 20px;
@@ -910,7 +909,7 @@ body {
 /*   width >  1120px  */
 
 
-@media screen and (min-width: 1120px) {
+
 
     
     @media screen and (min-width: 1120px) {
@@ -926,7 +925,7 @@ body {
             
             width: 65%;
             
-            height: 2000px;
+            height: auto;
         
             min-height: 800px;
             max-width: 1250px;
@@ -957,7 +956,7 @@ body {
             position: absolute;
             left: 0px;
             
-            box-shadow: 1px 1px 2px 0 black;
+            box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.064);
     
             font-family: 'TTLikes-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-weight: 100;
