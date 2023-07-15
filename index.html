@@ -12,17 +12,21 @@
         
     </head>
     <body>
+   
+        
+        
 
-        <div id="saidbar__mask" onclick='closebar()'></div>
+        <div  class="cps-root" id="root">
 
-        <div  class="cps-root">
+            <div id="saidbar__mask" onclick='closebar()'></div>
+            
             <aside id='sidebar' class="sidebar sidebar--display">
 
                 <div class="sidebar__header">
                     <div class="sidebar__wrapper">
                             <div onclick="showbar()" class='sidebar__wrapper'> 
                                 <image class='height-middle icon-effect sidebar__close--none' src="./assets/images/close.svg" alt="close"/>
-
+    
                             </div>
                            
                         
@@ -32,11 +36,11 @@
                     
                     
                     <image class='icon-effect' src="./assets/images/search.svg" alt="search"/>
-
+    
                 </div>
-
+    
                 <nav class="sidebar__nav"> 
-
+    
                     <ul class="sidebar__ul">
                         <li class='sidebar__li'><a href="#">Ремонт техники</a></li>
                         <li class='sidebar__li'><a href="#">Услуги и сервисы</a></li>
@@ -66,12 +70,13 @@
                         <span>EN</span>
                         <span>CH</span>
                     </div>
-
+    
                 </div>
-
+    
               </aside>
             
-            <div class="header header--none">
+            
+            <div class="header">
 
                     <div class="header__block">
 
@@ -173,10 +178,11 @@
                             </span>   
                             
                         
-                            <div id="more-text" class="main__summary">
+                            <div id="more-text" onclick="show()" class="main__summary icon-effect">
 
-                            <image  src="./assets/images/summary.svg" class='main__summary-icon' alt="summary" />
-                            <div  class="main__summary-text icon-effect" onclick="show()">Читать далее</div>
+                                
+                                <div class="main__more"></div>
+                                <div  class="main__summary-text" >Читать далее</div>
 
                             </div>
 
@@ -185,6 +191,7 @@
                         <image onclick='closebar()' id='pict' src="./assets/images/picture.jpg" alt='picture' class="main__picture"/>
 
                     </div>
+                    
 
                 
             </div>
@@ -195,6 +202,6 @@
 
         
 
-        
+    
     </body>
 </html>

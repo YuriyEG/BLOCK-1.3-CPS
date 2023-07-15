@@ -22,6 +22,9 @@ function showbar() {
         let modal = document.getElementById('saidbar__mask');
         modal.style.display = 'block';
 
+        var root = document.getElementById('root');
+        root.style.position = 'fixed';
+        console.log(root.style.position);
     } else {
         hidden2.style.left = '-400px';
         hidden2.style.transition = 'left 0.3s linear';
@@ -29,22 +32,30 @@ function showbar() {
         
         hidden3.style.display = 'none';
         var saidbar = document.getElementById('sidebar');
+
+        var root = document.getElementById('root');
+        root.style.position = 'relative';
+
         
 
+
     }
+
+
     
     
     
 };
 function closebar() {
 
-        var hidden3 = document.getElementById('sb__modal');
+        var hidden3 = document.getElementById('saidbar__mask');
         
         hidden3.style.display = 'none';
         var saidbar = document.getElementById('sidebar');
         saidbar.style.left = '-400px';
         saidbar.style.transition = 'left 0.5s linear';
-        
 
-    
+        var root = document.getElementById('root');
+        root.style.position = 'relative';
+        
 };
