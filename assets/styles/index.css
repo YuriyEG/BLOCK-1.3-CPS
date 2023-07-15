@@ -311,15 +311,72 @@ body {
     margin-bottom: 20px;
 }
 
+.sidebar__close {
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/close.svg');
+   
+}
+.sidebar__logo {
+
+    width: 98px;
+    height: 52px;
+    background-image: url('../images/LogoCPS.svg');
+    align-self: center;
+    margin-right: auto;
+    margin-left: 10px;
+ 
+}
+
+.sidebar__search {
+
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/search.svg');
+
+}
+.sidebar__call {
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/call.svg');
+            
+}
+.sidebar__chat {
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/chat.svg');
+
+}
+.sidebar__profile {
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/profile.svg');
+
+}
+
+ a  {
+    text-decoration: none;
+    color: black;
+    font-family: 'TTLakes-ExtraBold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
 
 
 .sidebar__wrapper {
     display: flex;
+    
    
    
     
 
 }
+
 .height-middle {
     display: inline-block;
     margin-right: 10px;
@@ -461,9 +518,7 @@ body {
   display: none;
 }
 
-//
 
-}
 .sidebar__modal {
     width: 200vh;
     height: 200vh;
@@ -518,10 +573,6 @@ body {
 
    
 }
-
-//
-
-
 
 .main {
     width: 98%;
@@ -600,11 +651,7 @@ body {
     font-family: 'TTLakes-Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
        font-size: 16px;
        font-weight: 900;
-   
-    
 
-
-    
 }
 .main__menu-item:hover {
      border: 1px solid rgba(0, 0, 0, 0.107);
@@ -1052,6 +1099,12 @@ body {
         .sidebar__close--none {
             display: none;
         }
+
+        .sidebar__close {
+            display: none;
+        }
+
+        
       
         .sidebar__nav {
             

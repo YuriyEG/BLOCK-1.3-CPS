@@ -27,15 +27,9 @@
                 <!-- Шапка бокового меню -->
                 <div class="sidebar__header">
 
-                    <div class="sidebar__wrapper">
-                            <div onclick="showbar()" class='sidebar__wrapper'> 
-                                <image class='height-middle icon-effect sidebar__close--none' src="./assets/images/close.svg" alt="close"/>
-                            </div>
-                            <image  src="./assets/images/LogoCPS.svg" alt="logo"/>
-                    </div>
-                    
-                    
-                    <image class='icon-effect' src="./assets/images/search.svg" alt="search"/>
+                            <div onclick="showbar()" class='sidebar__close icon-effect'></div>
+                            <div class="sidebar__logo"></div>
+                            <div class="sidebar__search icon-effect"></div>
     
                 </div>
                 
@@ -62,13 +56,14 @@
 
                     
                     <div class="sidebar__footer-icons">
-                        <image class='icon-effect' src="./assets/images/call.svg" class="header__icon2"></image>
-                        <image class='icon-effect' src="./assets/images/chat.svg" class="header__icon2"></image>
-                        <image class='icon-effect' src="./assets/images/profile.svg" class="header__icon2"></image>
+                        <div class="sidebar__call icon-effect"></div>
+                        <div class="sidebar__chat icon-effect"></div>
+                        <div class="sidebar__profile icon-effect"></div>
+                    
                     </div>
 
-                    <div class="sidebar__email">mail@cps.com</div>
-                    <div class="sidebar__phone">8 800 890 8900</div>
+                    <div class="sidebar__email"><a href='#'>mail@cps.com</a></div>
+                    <div class="sidebar__phone"><a href='#'>8 800 890 8900</a></div>
 
                     <div class="sidebar__lang">
                         <span>RU</span>
