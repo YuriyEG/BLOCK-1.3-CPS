@@ -418,11 +418,17 @@ a  {
 
 .sidebar__email {
 
-    font-family: 'TTLakes-Medium', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     margin-top: 16px;
     margin-bottom: 16px;
     font-weight: lighter;
     font-size: 16px;
+
+}
+
+.sidebar__email a {
+
+    font-family: 'TTLakes-Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
