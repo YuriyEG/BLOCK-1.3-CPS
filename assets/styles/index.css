@@ -248,13 +248,13 @@ body {
 .sidebar__header {
 
     box-sizing: border-box;
-    padding: 20px 20px 20px 16px;
+    padding: 20px 20px 20px 24px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 
 }
 
@@ -412,7 +412,17 @@ a  {
 
 .sidebar__footer-icons .icon-effect {
     
-    margin-right: 16px;
+    margin-right: 12px;
+
+}
+
+.sidebar__email {
+
+    font-family: 'TTLakes-Medium', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: lighter;
+    font-size: 16px;
 
 }
 
@@ -438,6 +448,13 @@ a  {
 .sidebar__lang span:nth-child(1) {
 
     color: rgba(126, 126, 130, 1);
+    
+
+}
+
+.sidebar__lang span {
+
+    margin-right: 8px;
 
 }
 
