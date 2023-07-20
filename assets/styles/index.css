@@ -996,7 +996,7 @@ a  {
     }
 
     .main__brands {
-        border: 5px solid blue;
+
         width: 99%;
     
     }
@@ -1211,7 +1211,7 @@ a  {
 
         }
         .main__brands {
-            border: 5px solid blue;
+    
             width: 99%;
         }
         .main__brand-item {
@@ -1220,7 +1220,7 @@ a  {
             min-width: 220px;
         }
         .main__brands-box {
-            border: 1px solid red;
+      
             height: 200px;
             overflow: hidden;
         }
