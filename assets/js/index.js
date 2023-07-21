@@ -92,7 +92,7 @@ mainSummary.addEventListener( 'click', function () {
 const swiper = new Swiper('.swiper', {
         // Optional parameters
         direction: 'horizontal',
-        loop: true,
+        loop: false,
       
         // If we need pagination
         pagination: {
@@ -109,5 +109,33 @@ const swiper = new Swiper('.swiper', {
         // And if we need scrollbar
         scrollbar: {
           el: '.swiper-scrollbar',
+          draggable: 'true',
+          hide: false,
         },
+
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true,
+          pageUpDown: true
+        },
+
+        simulateTouch: true,
+        touchRatio: 1,
+        touchAngle: 45,
+        
+        mousewheel: {
+            sensitivity: 1,
+        }, 
+        
+       
+        // watchOverFlow: true,
+        spaceBeetween: 32, 
+
+        // autoHeight: true,
+        slidesPerWiew: 2,
+        
+
+     
       });
+
+     

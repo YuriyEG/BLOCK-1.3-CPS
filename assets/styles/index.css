@@ -864,26 +864,39 @@ a  {
 
 .main__brands-swiper {
 
-    width: 100%;
+    width: 96%;
     min-width: 0;
     height: 100px;
     box-sizing: border-box;
+    margin: 0 auto;
     margin-top: 24px;
-    
+   
+    overflow: hidden;
 
 }
 
 .swiper {
-    width: 100%;
+    width: 240px !important;
     height: 100px;
     display: none;
+    overflow: visible !important;
+  
+    margin-left: 0 !important;
     
   }
 .swiper-slide {
-
+    display: block;
     position: center;
+    overflow: visible;
+   
+
+    
+   
+    
     
 }
+
+
 
 /*   width < 768 */
 
@@ -905,6 +918,8 @@ a  {
         border-radius: 6px;
 
     }
+
+ 
 }
 
 /*   768 < width < 1120px  */
