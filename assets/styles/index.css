@@ -735,9 +735,7 @@ a  {
     padding-left: 24px;
     padding-bottom: 16px;
     box-sizing: border-box;
-    /* background-image: linear-gradient(90deg, rgb(0, 0, 0, 0.03) 0px,  rgba(0, 0, 0, 0.03) 110px,
-     rgba(0, 0, 0, 0.02) 110px,  rgba(0, 0, 0, 0.02) 220px,  rgba(0, 0, 0, 0.01) 220px, 
-     rgba(0, 0, 0, 0.01)  320px, white 320px); */
+   
     background-image: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
  
     
@@ -961,6 +959,24 @@ a  {
 
 @media screen and (max-width: 768px) {
 
+
+    .main__post {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    
+    }
+    .main__post-text {
+     
+        width: 90%;
+        margin: 0;
+        padding: 16px;
+        padding-left: 24px;
+       
+
+    }
+
     .main__brand-item  {
         background-color: rgb(176, 176, 176);
         display: flex;
@@ -977,6 +993,8 @@ a  {
         border-radius: 6px;
 
     }
+
+
 
  
 }
